@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{faf1fdd1-2f39-4dbe-b8e9-813365cc89aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5e106b33-7227-409f-9559-ab9d5650783f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool">
+      <UniqueIdentifier>{66237623-9ec3-471d-8d6a-67b0ace54b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\Config">
+      <UniqueIdentifier>{74c526bc-fa4a-4281-b423-c883864fefa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\Helper">
+      <UniqueIdentifier>{f1a06a40-48d5-43df-bdfe-d5b9ed6e7b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageChar">
+      <UniqueIdentifier>{2b59b41c-c50b-4b25-b8ab-63ac17ef3496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageChar\Locker">
+      <UniqueIdentifier>{7889fcdd-f263-4363-b982-c4fcc6281656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageItemShop">
+      <UniqueIdentifier>{8d99151f-ab59-4914-bf43-4b7f9ebff641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageMain">
+      <UniqueIdentifier>{92d90790-6441-402e-aa07-658c4150cb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PagePet">
+      <UniqueIdentifier>{feddc136-4cf4-4c36-88e3-d8f714535808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageUser">
+      <UniqueIdentifier>{96302744-431e-4e20-9055-d4b469ffbedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\PageVehicle">
+      <UniqueIdentifier>{418c3694-a5ec-4416-b3fa-2d9eb65e3c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tool\SelColor">
+      <UniqueIdentifier>{4c9bc1c4-9bd7-42ed-a2a8-bb9d0f209ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Logic">
+      <UniqueIdentifier>{f348dca0-84a2-4a94-9e02-93442a8b470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Logic\Common">
+      <UniqueIdentifier>{43b3ac29-9848-4547-9ec4-a0abb83ae0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Logic\ODBC">
+      <UniqueIdentifier>{bb8b3d32-a7b2-4015-a9f3-36c7524fb7d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dragitem.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GMTool.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\Icon_Server.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GMTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMTool.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GMToolDlg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SheetWithTab.cpp">
+      <Filter>Source\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfig.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogin.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPresetItem.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPresetItemEdit.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPresetSkill.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPresetSkillEdit.cpp">
+      <Filter>Source\Tool\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgActivityEdit.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgActivityList.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCrow.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDatetime.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInvenList.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgItem.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLockerGoldEdit.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMap.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPetSkillList.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgQuest.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShopItemList.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSItemCustomEdit.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSkill.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSkillAdd.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSkillLevelEdit.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSkillList.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageActivity.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageBasic.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageCoolTime.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageInven.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageItemFood.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageLocker.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPagePutOn.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageQuest.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageSkills.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageSlotAction.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageSlotSkill.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditTab.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCharCopy.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCharEdit.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="PageChar.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageItem1.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageItem2.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageItem3.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageItem4.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageItemP.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerPageMain.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="LockerTab.cpp">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShopItemEdit.cpp">
+      <Filter>Source\Tool\PageItemShop</Filter>
+    </ClCompile>
+    <ClCompile Include="PageItemShop.cpp">
+      <Filter>Source\Tool\PageItemShop</Filter>
+    </ClCompile>
+    <ClCompile Include="PageMain.cpp">
+      <Filter>Source\Tool\PageMain</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPetEdit.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PagePet.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEditPageBasic.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEditPageInven.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEditPageSkill.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEditPageSkillSlot.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEditTab.cpp">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserCharacters.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserEdit.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserItemBank.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserLogLogin.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserNew.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="PageUser.cpp">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgVehicleEdit.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="PageVehicle.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleEditPageBasic.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleEditPageColor.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleEditPageInven.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleEditTab.cpp">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="SelColorDlg.cpp">
+      <Filter>Source\Tool\SelColor</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolConfig.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolGlobal.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolGlobalDataCheck.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolGlobalString.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolLogs.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolPresetItem.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolPresetSkill.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolShopData.cpp">
+      <Filter>Source\Logic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcBase.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcChar.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharCopy.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharRead.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharSave.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharUserInven.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcConn.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcGM.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcHenv.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcPet.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcShop.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcUser.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcVehicle.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CharEditPagePersonalLock.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharUserPersonalLock.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharPKCombo.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPagePKCombo.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolCharData.cpp">
+      <Filter>Source\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageAwardTitle.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCharAwardTitle.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAwardTitleEdit.cpp">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageCombatRecord.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\GMToolOdbcCombatRecord.cpp">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="CharEditPageCollection.cpp">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMTool.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GMToolDlg.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GMToolTab.h">
+      <Filter>Source\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="SheetWithTab.h">
+      <Filter>Source\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfig.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogin.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPresetItem.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPresetItemEdit.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPresetSkill.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPresetSkillEdit.h">
+      <Filter>Source\Tool\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgActivityEdit.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgActivityList.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCrow.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDatetime.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInvenList.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgItem.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLockerGoldEdit.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMap.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPetSkillList.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgQuest.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShopItemList.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSItemCustomEdit.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSkill.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSkillAdd.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSkillLevelEdit.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSkillList.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageActivity.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageBasic.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageCoolTime.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageInven.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageItemFood.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageLocker.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPagePutOn.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageQuest.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageSkills.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageSlotAction.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageSlotSkill.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditTab.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCharCopy.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCharEdit.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="PageChar.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageItem1.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageItem2.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageItem3.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageItem4.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageItemP.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerPageMain.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="LockerTab.h">
+      <Filter>Source\Tool\PageChar\Locker</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShopItemEdit.h">
+      <Filter>Source\Tool\PageItemShop</Filter>
+    </ClInclude>
+    <ClInclude Include="PageItemShop.h">
+      <Filter>Source\Tool\PageItemShop</Filter>
+    </ClInclude>
+    <ClInclude Include="PageMain.h">
+      <Filter>Source\Tool\PageMain</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPetEdit.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PagePet.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEditPageBasic.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEditPageInven.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEditPageSkill.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEditPageSkillSlot.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEditTab.h">
+      <Filter>Source\Tool\PagePet</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserCharacters.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserEdit.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserItemBank.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserLogLogin.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserNew.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="PageUser.h">
+      <Filter>Source\Tool\PageUser</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgVehicleEdit.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="PageVehicle.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleEditPageBasic.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleEditPageColor.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleEditPageInven.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleEditTab.h">
+      <Filter>Source\Tool\PageVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="SelColorDlg.h">
+      <Filter>Source\Tool\SelColor</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolConfig.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolData.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolGlobal.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolLogs.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolPresetItem.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolPresetSkill.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolShopData.h">
+      <Filter>Source\Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolOdbcBase.h">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolOdbcConn.h">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolOdbcHenv.h">
+      <Filter>Source\Logic\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="CharEditPagePersonalLock.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPagePKCombo.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\GMToolCharData.h">
+      <Filter>Source\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageAwardTitle.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAwardTitleEdit.h">
+      <Filter>Source\Tool\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageCombatRecord.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CharEditPageCollection.h">
+      <Filter>Source\Tool\PageChar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
